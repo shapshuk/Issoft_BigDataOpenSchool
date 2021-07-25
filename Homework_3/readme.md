@@ -1,6 +1,6 @@
 # Homework 3
 
-This script defines top movies by rating for every mentioned genre. The result is csv-like dataset with the header "title,year,rating,genre".
+This script defines top movies by rating for every mentioned genre. The result is tmp.csv file whith fields "title,rating,genre".
 
 ---
 
