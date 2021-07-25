@@ -1,10 +1,10 @@
+USE movie_ratings_db;
+
 DROP FUNCTION IF EXISTS get_year_from_title;
 
 CREATE FUNCTION get_year_from_title(title VARCHAR(500)) RETURNS INT
     DETERMINISTIC
     RETURN (CAST(REGEXP_SUBSTR(title, '(?<=\\()\\d+?(?=\\))') AS UNSIGNED));
-
-select get_year_from_title('Matrix 2 (2003)');
 
 
 DROP FUNCTION IF EXISTS SPLIT_STR;
@@ -74,7 +74,7 @@ BEGIN
 END$$
 DELIMITER ;
 
-CALL usp_find_top_rated_movies(10, NULL, NULL, 1976, NULL);
+# CALL usp_find_top_rated_movies(10, NULL, 2000, NULL, 'Action|Drama');
 
 
 # SELECT COALESCE(NULL, 1, NULL);
