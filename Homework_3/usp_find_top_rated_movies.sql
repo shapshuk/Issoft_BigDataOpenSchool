@@ -73,8 +73,3 @@ BEGIN
 
 END$$
 DELIMITER ;
-
-# CALL usp_find_top_rated_movies(10, NULL, 2000, NULL, 'Action|Drama');
-
-
-# SELECT COALESCE(NULL, 1, NULL);
