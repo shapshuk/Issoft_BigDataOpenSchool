@@ -1,4 +1,4 @@
-# Homework 2
+# Get movie ratings (python)
 
 This script defines top movies by rating for every mentioned genre. The result is csv-like dataset with the header "genre,title,year,rating".
 

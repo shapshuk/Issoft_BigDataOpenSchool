@@ -1,4 +1,4 @@
-# Homework 3
+# Get movie ratings (bash + MySQL)
 
 This script defines top movies by rating for every mentioned genre. The result is tmp.csv file whith fields "title,rating,genre".
 
